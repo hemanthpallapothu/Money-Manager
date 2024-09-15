@@ -1,0 +1,137 @@
+.balance-bg-container {
+  background-color: #ecfccb;
+  border-style: solid;
+  border-color: #84cc16;
+  border-width: 1px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.balance-img {
+  height: 60px;
+  width: 60px;
+}
+
+.balance-text {
+  color: #475569;
+  font-size: 15px;
+  font-family: roboto;
+}
+
+.balance-amount {
+  color: #475569;
+  font-size: 25px;
+  font-family: roboto;
+}
+
+.income-bg-container {
+  background-color: #cffafe;
+  border-style: solid;
+  border-color: #06b6d4;
+  border-width: 1px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.income-img {
+  height: 60px;
+  width: 60px;
+}
+
+.income-text {
+  color: #475569;
+  font-size: 15px;
+  font-family: roboto;
+}
+
+.income-amount {
+  color: #475569;
+  font-size: 25px;
+  font-family: roboto;
+}
+
+.expenses-bg-container {
+  background-color: #ede9fe;
+  border-style: solid;
+  border-color: #7c3aed;
+  border-width: 1px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.expenses-img {
+  height: 60px;
+  width: 60px;
+}
+
+.expenses-text {
+  color: #475569;
+  font-size: 15px;
+  font-family: roboto;
+}
+
+.expenses-amount {
+  color: #475569;
+  font-size: 25px;
+  font-family: roboto;
+}
+
+@media screen and (min-width: 767px) {
+  .balance-bg-container {
+    background-color: #ecfccb;
+    border-style: solid;
+    width: 300px;
+    border-color: #84cc16;
+    border-width: 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+  .income-bg-container {
+    background-color: #cffafe;
+    width: 300px;
+    border-style: solid;
+    border-color: #06b6d4;
+    border-width: 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+  .expenses-bg-container {
+    background-color: #ede9fe;
+    width: 300px;
+    border-style: solid;
+    border-color: #7c3aed;
+    border-width: 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+}

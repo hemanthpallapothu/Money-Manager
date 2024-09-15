@@ -1,0 +1,37 @@
+.history-container-alinement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.historys-title {
+  color: #7e858e;
+  font-family: roboto;
+  font-size: 15px;
+  padding: 25px;
+}
+
+.historys-amount {
+  color: #7e858e;
+  font-family: roboto;
+  font-size: 15px;
+  padding: 25px;
+}
+
+.historys-type {
+  color: #7e858e;
+  font-family: roboto;
+  font-size: 15px;
+  padding: 25px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.delete-button-img {
+  height: 25px;
+  width: 25px;
+}
