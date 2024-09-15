@@ -22,7 +22,7 @@ class MoneyManager extends Component {
     historiesList: initialHistoriesList,
     title: '',
     amount: '',
-    type: 'Income',
+    type: 'INCOME',
     yourBalance: 0,
     yourIncome: 0,
     yourExpenses: 0,
@@ -66,7 +66,7 @@ class MoneyManager extends Component {
         historiesList: [...prevState.historiesList, newTransactions],
         title: '',
         amount: '',
-        type: 'Income',
+        type: 'INCOME',
       }),
       () => {
         this.onMoneyUpdateDetails()
